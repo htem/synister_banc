@@ -1,0 +1,55 @@
+gt:
+  base: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/nt_ground_truth/v514/nt_dataset_250527.feather
+  train: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/nt_ground_truth/v514/train_gt_synapses_250527_v8_1.feather
+  val: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/nt_ground_truth/v514/test_gt_synapses_250527_v8_1.feather
+  num_neurotransmitters: 8
+  body_id: body
+  nt_name: nt_name
+  point_id: id
+  x_col: x
+  y_col: 'y'
+  z_col: z
+train:
+  experiment_dir: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9
+  input_shape:
+  - 160
+  - 160
+  - 14
+  log_every: 100
+  num_iterations: 200000
+  batch_size: 32
+  save_every: 5000
+  snapshot_every: 10000
+  lr: 0.0001
+  num_cache_workers: 12
+  container: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/banc_nt_inference/precomputed2zarr/banc_4nm_ds_full.zarr
+  dataset: vol
+  voxel_size:
+  - 4
+  - 4
+  - 45
+  num_transmitters: 8
+validate:
+  batch_size: 8
+  container: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/banc_nt_inference/precomputed2zarr/banc_4nm_ds_full.zarr
+  dataset: vol
+  num_transmitters: ${gt.num_neurotransmitters}
+  experiment_dir: ${train.experiment_dir}
+  checkpoint_number: 910000
+  input_shape: ${train.input_shape}
+  num_workers: 8
+  nt_name: ${gt.nt_name}
+  point_id: ${gt.point_id}
+  num_partitions: 1
+  partition_id: 1
+  output_dir: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs
+  spatial_order: xyz
+data:
+  data:
+    container: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/banc_nt_inference/precomputed2zarr/banc_4nm_ds_full.zarr
+    dataset: vol
+    voxel_size:
+    - 4
+    - 4
+    - 45
+    spatial_order: xyz

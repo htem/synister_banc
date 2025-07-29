@@ -1,0 +1,5 @@
+data:
+  container: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/banc_nt_inference/precomputed2zarr/banc_4nm_ds_full.zarr
+  dataset: "vol"
+  voxel_size: [4, 4, 45]
+  spatial_order: "xyz"

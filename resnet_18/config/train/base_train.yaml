@@ -1,0 +1,12 @@
+log_every: 100
+num_iterations: 200000
+batch_size: 32
+save_every: 5000
+snapshot_every: 10000
+lr: 0.0001
+num_cache_workers: 12
+
+container: /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/banc_nt_inference/precomputed2zarr/banc_4nm_ds_full.zarr
+dataset: "vol"
+voxel_size: [4,4,45]
+num_transmitters: 8

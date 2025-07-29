@@ -1,0 +1,8 @@
+[2025-07-03 15:59:04,873][root][INFO] - Reading data...
+[2025-07-03 15:59:05,566][root][INFO] - Input shape (voxels): [160, 160, 14]
+[2025-07-03 15:59:05,568][root][INFO] - Voxel size: [4, 4, 45]
+[2025-07-03 15:59:05,569][root][INFO] - Input size (nm): [640 640 630]
+[2025-07-03 15:59:06,146][root][INFO] - Alpha weights: tensor([1.0000, 1.1000, 1.0000, 1.0000, 0.9000, 1.0000, 1.1000, 1.0000],
+       device='cuda:0')
+[2025-07-03 15:59:06,235][root][INFO] - Number of classes: 8
+[2025-07-03 15:59:06,235][root][INFO] - Setting up pipeline...

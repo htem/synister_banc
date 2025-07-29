@@ -1,0 +1,12 @@
+[2025-07-07 12:40:01,526][root][INFO] - Reading data...
+[2025-07-07 12:40:01,792][root][INFO] - There are 1 GPUs available
+[2025-07-07 12:41:13,430][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_0.feather
+[2025-07-07 12:42:13,973][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_1.feather
+[2025-07-07 12:43:17,850][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_2.feather
+[2025-07-07 12:44:32,278][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_3.feather
+[2025-07-07 12:45:37,276][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_4.feather
+[2025-07-07 12:46:30,875][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_5.feather
+[2025-07-07 12:47:22,490][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_6.feather
+[2025-07-07 12:48:06,322][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_7.feather
+[2025-07-07 12:48:48,107][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_8.feather
+[2025-07-07 12:49:32,654][root][INFO] - Intermediate results saved to /n/data3_vast/hms/neurobio/htem2/users/kd193/banc_neurotransmitter_pred/synister/results/resnet_18_new_v9/outputs/predictions_730000_9.feather
