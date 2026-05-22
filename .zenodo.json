@@ -4,11 +4,13 @@
   "upload_type": "software",
   "access_right": "open",
   "creators": [
-    {"name": "Bates, Alexander Shakeel", "orcid": "0000-0002-1195-0445", "affiliation": "Harvard Medical School"},
-    {"name": "Delgado, Kevin M.", "orcid": "0009-0006-7504-0826", "affiliation": "Harvard Medical School"},
-    {"name": "Adjavon, Diane-Yayra", "orcid": "0009-0001-4702-0776", "affiliation": "HHMI Janelia Research Campus"},
-    {"name": "Funke, Jan", "orcid": "0000-0003-4388-7783", "affiliation": "HHMI Janelia Research Campus"},
-    {"name": "Lee, Wei-Chung Allen", "orcid": "0000-0002-4618-295X", "affiliation": "Boston Children's Hospital, Harvard Medical School"}
+    {"name": "Delgado, Kevin M.", "orcid": "0009-0006-7504-0826", "affiliation": "Harvard Medical School"}
+  ],
+  "contributors": [
+    {"type": "ContactPerson", "name": "Bates, Alexander Shakeel", "orcid": "0000-0002-1195-0445", "affiliation": "Harvard Medical School"},
+    {"type": "ContactPerson", "name": "Adjavon, Diane-Yayra", "orcid": "0009-0001-4702-0776", "affiliation": "HHMI Janelia Research Campus"},
+    {"type": "ContactPerson", "name": "Funke, Jan", "orcid": "0000-0003-4388-7783", "affiliation": "HHMI Janelia Research Campus"},
+    {"type": "ContactPerson", "name": "Lee, Wei-Chung Allen", "orcid": "0000-0002-4618-295X", "affiliation": "Boston Children's Hospital, Harvard Medical School"}
   ],
   "keywords": [
     "connectomics", "Drosophila", "BANC", "neurotransmitter", "synister",
