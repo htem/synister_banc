@@ -1,5 +1,8 @@
 # Neurotransmitter Prediction from Electron Microscopy Images in BANC
 
+[![DOI](https://zenodo.org/badge/1028540389.svg)](https://zenodo.org/badge/latestdoi/1028540389)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 This repository is based off previous work from the preprint [Neurotransmitter Classification from
 Electron Microscopy Images at Synaptic Sites in
 Drosophila.](https://www.biorxiv.org/content/10.1101/2020.06.12.148775v2)

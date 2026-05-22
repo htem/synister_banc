@@ -1,6 +1,7 @@
 {
   "title": "synister_banc: Synapse-level neurotransmitter prediction for the BANC connectome",
   "description": "Trained synister (Eckstein, Bates et al., 2024) neurotransmitter classifier applied to synapses in the Brain And Nerve Cord (BANC) connectome (Bates, Phelps, Kim, Yang et al., 2025). Provides per-synapse predictions over eight fast-acting transmitters (GABA, acetylcholine, glutamate, serotonin, octopamine, dopamine, histamine, tyramine) for synapses with predicted size > 5, together with the BANC ground-truth train/test split used for model training and evaluation. Predictions are released as a parquet table on Google Cloud Storage and as a CAVE annotation table.",
+  "license": "GPL-3.0-only",
   "upload_type": "software",
   "access_right": "open",
   "creators": [
